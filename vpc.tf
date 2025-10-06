@@ -110,7 +110,7 @@ module "restricted_apis_dns" {
 
 module "bastion" {
   source     = "memes/private-bastion/google"
-  version    = "2.3.5"
+  version    = "4.0.1"
   project_id = var.project_id
   prefix     = format("%s-mgmt", var.name)
   zone       = element(data.google_compute_zones.zones.names, 0)

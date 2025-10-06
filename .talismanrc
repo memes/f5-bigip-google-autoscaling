@@ -1,6 +1,7 @@
 # spell-checker: disable
 # yamllint disable rule:line-length
 ---
+version: "1.0"
 fileignoreconfig:
 - filename: .github/workflows/release.yml
   checksum: a975e764f9205155fb006fef6de943574e3d61a314f9215599590a0242ad2efc
@@ -24,4 +25,7 @@ fileignoreconfig:
   checksum: 795d5e575aa7814c0d3a9184dc010fca2b1fcaf2a845d16e3958070975a41262
 - filename: templates/big-ip/as3_app.yaml
   checksum: 6f970314171fca5f5cc958cfdc575c8134452168761edddfd6b8ca0112f2cb69
-version: ""
+- filename: uv.lock
+  checksum: 9dec99f9378eddc876f508b8dfac86ffad83d6d969e0347e98ed069a6c5712b6
+  ignore_detectors:
+    - filecontent

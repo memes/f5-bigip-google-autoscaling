@@ -1,7 +1,7 @@
 # Autoscaling BIG-IP in Google Cloud using Telemetry Streaming
 
-![GitHub release](https://img.shields.io/github/v/release/memes/f5-bigip-ts-gcp-autoscaling?sort=semver)
-![Maintenance](https://img.shields.io/maintenance/yes/2023)
+![GitHub release](https://img.shields.io/github/v/release/memes/f5-bigip-google-autoscaling?sort=semver)
+![Maintenance](https://img.shields.io/maintenance/yes/2025)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
 TBA

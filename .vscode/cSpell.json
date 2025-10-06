@@ -30,6 +30,7 @@
         "restjavad",
         "runcmd",
         "setdb",
+        "tflint",
         "thumbsup",
         "tmsh",
         "trimpath",
@@ -41,5 +42,11 @@
     ],
     "flagWords": [
         "hte"
+    ],
+    "ignorePaths": [
+        ".devcontainer/devcontainer.json",
+        ".gitignore",
+        ".pre-commit-config.yaml",
+        "uv.lock"
     ]
 }
